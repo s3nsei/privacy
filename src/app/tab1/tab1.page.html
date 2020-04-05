@@ -1,20 +1,20 @@
-<!DOCTYPE html>
-<html>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-</head>
-
-<body>
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Privacy cov19 live info app</a>
-</nav>
-  <div class="container jumbotron">
+  <app-explore-container name="Tab 1 page">
+     <div class="container jumbotron">
      <p>
        
 Privacy Policy
@@ -30,13 +30,5 @@ Privacy Policy created with GetTerms.
        
     </p>
   </div>
-  
-
-  <footer>
-    
-    <p>&copy; Dominic DAMBA</p>
-  </footer>
-
-</body>
-
-</html>
+  </app-explore-container>
+</ion-content>
